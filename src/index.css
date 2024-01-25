@@ -1,8 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-body {
+/* body {
   margin: 0;
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+} */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: transparent;
+  background-color: #040404;
+  color: #eee;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("../public/img/bg.jpg") top center no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
 }

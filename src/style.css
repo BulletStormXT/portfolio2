@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #18d26e;
 }
 
 .purple {
@@ -57,18 +57,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #222;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(53, 232, 136, 0.6);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(24, 210, 110, 0.8);
   border-radius: 12px;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #18d26e !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -254,7 +254,7 @@ button:focus {
   padding-top: 80px !important;
 }
 
-.home-section {
+/* .home-section {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
@@ -262,7 +262,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
-}
+} */
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -281,17 +281,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #18d26e;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #35e888 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #36e888 !important;
 }
 
 @media (max-width: 767px) {
