@@ -76,7 +76,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: rgba(24, 210, 111, 0.075) !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #18d26e;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -353,12 +353,12 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 44px !important;
+  height: 44px !important;
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgba(58, 58, 58, 0.7);
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -371,7 +371,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  /* background: #484848; */
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +379,14 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #18d26e;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #35e888;
+  box-shadow: 0 0 5px #35e888;
+  text-shadow: 0 0 2px #35e888;
+  background: rgba(24, 210, 110, 0.7);
 }
 
 .social-icons {
@@ -395,14 +396,15 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #eee !important;
+  background-color: rgba(58, 58, 58, 0.5);
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  /* background-color: rgba(39, 37, 38, 0.9); */
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -439,7 +441,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #18d26e !important;
 }
 /* --------- */
 /* Projects */
@@ -727,7 +729,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: rgba(24, 210, 110, 0.3) !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -735,8 +737,9 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #18d26e !important;
+  border-color: #18d26e !important;
+  color: #333;
 }
 .fork-btn-inner::after {
   display: none !important;
