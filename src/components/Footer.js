@@ -5,7 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaSkype, FaXing } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -58,7 +58,17 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <FaXing />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/soumyajit4419"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaSkype />
               </a>
             </li>
           </ul>
