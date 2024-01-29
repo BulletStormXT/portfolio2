@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineWhatsApp,
+  AiOutlineMail,
+  AiOutlineSkype,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaSkype, FaXing } from "react-icons/fa";
+import { FaLinkedinIn, FaXing } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -32,16 +34,6 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li> */}
 
             <li className="social-icons">
               <a
@@ -51,7 +43,8 @@ function Footer() {
                 rel="noopener noreferrer"
                 title="LinkedIn"
               >
-                <FaLinkedinIn />
+                {/* <FaLinkedinIn /> */}
+                <AiOutlineLinkedin />
               </a>
             </li>
             <li className="social-icons">
@@ -73,7 +66,31 @@ function Footer() {
                 rel="noopener noreferrer"
                 title="Skype"
               >
-                <FaSkype />
+                <AiOutlineSkype />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://wa.me/491795330537"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="WhatsApp"
+              >
+                <AiOutlineWhatsApp />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="mailto:Sebastian.Peinelt@live.de?subject=Ihr%20Portfolio"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="eMail"
+              >
+                <AiOutlineMail />
               </a>
             </li>
           </ul>
