@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/img/me4.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -26,6 +26,7 @@ function About() {
                 fontSize: "2.1em",
                 paddingBottom: "20px",
                 fontVariant: "small-caps",
+                textDecoration: "underline",
               }}
             >
               Wer bin <strong className="purple">ich</strong>?
@@ -40,17 +41,28 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        <h1
+          className="project-heading purple"
+          style={{ fontVariant: "small-caps", textDecoration: "underline" }}
+        >
+          Professionelles <strong className="purple">Skillset </strong>
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
 
+        <h1
+          className="project-heading"
+          style={{ fontVariant: "small-caps", textDecoration: "underline" }}
+        >
+          Meine <strong className="purple">Tools</strong>
+        </h1>
+
+        <Toolstack />
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <Github />
       </Container>
     </Container>
