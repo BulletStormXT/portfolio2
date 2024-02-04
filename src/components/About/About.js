@@ -11,7 +11,13 @@ function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
-      <Container>
+      <Container
+        style={{
+          paddingLeft: "2em",
+          paddingRight: "2em",
+          backgroundColor: "#000000c0",
+        }}
+      >
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
