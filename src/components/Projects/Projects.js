@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import portfolio from "../../Assets/img/portfolio/portfolio001/portfolio001-details-1.png"; //* OK 01
+import clock from "../../Assets/img/portfolio/portfolio005/portfolio-details-1-clock169.png"; //* OK 02
+import tfc from "../../Assets/img/portfolio/portfolio002/portfolio002-details-1.png"; //* OK 03
+import crc from "../../Assets/img/portfolio/portfolio003/portfolio003-details-1.png"; //* OK 04
+import bhsvlsz from "../../Assets/img/portfolio/portfolio004/portfolio004-details-1.png"; //* OK 05
 
 function Projects() {
   return (
@@ -15,57 +14,57 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Meine bisherigen <strong className="purple">Projekte </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Einige Projekte, an denen ich in der Vergangenheit gearbeitet habe.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={portfolio}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Portfolio"
+              description="Ein Portfolio, welches im Rahmen der Weiterbildung bei der DCI entstanden ist. Hier wurde HTML, CSS und Bootstrap verwendet. Das Portfolio ist responsiv und hat eine gute Performance. Es ist ein OnePager und hat kein Kontaktformular, Weches auch meines erachtens nicht nötig ist, da man sich ja eh vorher schon kennt, oder schriftlich beworben hat."
+              ghLink="https://github.com/bulletstormxt/portfolio"
+              demoLink="https://bulletstormxt.github.io/portfolio/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={clock}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Digitale Uhr"
+              description="Dies ist ein kleines DOM-Manipulation-Projekt meinerseits gewesen während der Weiterbildung zum Full Stack Web- / Software Developer."
+              ghLink="https://github.com/bulletstormxt/portfolio/tree/main/subpages/clock"
+              demoLink="https://bulletstormxt.github.io/portfolio/subpages/clock/index.html"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tfc}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="TFC"
+              description="Mein erstes Projekt für einen Freund, der einen Film-Club betrieben hat. Zu diesem Zeitpunkt habe ich sogar auch in einen seiner Filme mitgespielt. Ich habe auch viel im Hintergrund z. B. Kamera, Beleuchtung, Location und Videoschnitt mitgewirkt. Tatsächlich wollte mein Bekannter eine weitere Idee, hatte dann aber dankend abgelehnt, da er es sich nicht wirklich leisten konnte. Heute wäre die Seite etwas underscored."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={crc}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="CRC"
+              description="Diese Seite ist nie Online gegangen, da ich während der Zeit, die ich diese Webseite im CRC erstellt habe, den Unternehmer zu viel gekostet hat. Und ausserdem hatte ich zu viele Nebenaufgaben in diesem kleinen Geschäft, so, dass es nicht fertiggestellt werden konnte."
+              // ghLink="https://github.com/bulletstormxt/portfolio"
+              // demoLink="https://bulletstormxt.github.io/portfolio/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,17 +73,17 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bhsvlsz}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Behindertensportverein Bad Langensalza"
+              description="Hier habe ich während meiner Ausbildung bzw. Weiterbildung zur Fachkraft für Internet und Intranet eine Webseite mit einer jungen Dame für die Behindertensportgemeinschaft Bad Langensal za, in welcher Sie Mitglied war, erstellt.
+              Diese Seite war von 2002 bis 2007 online."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>
