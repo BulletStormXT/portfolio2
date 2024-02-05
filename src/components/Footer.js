@@ -7,7 +7,7 @@ import {
   AiOutlineSkype,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaXing } from "react-icons/fa";
+import { FaXing } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();

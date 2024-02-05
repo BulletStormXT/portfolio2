@@ -15,63 +15,63 @@ function Toolstack() {
             alt="git logo"
             title="Git / GitBash / Git for Windows"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             height="70"
             alt="github logo"
             title="GitHub / GitHub Desktop"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.simpleicons.org/vercel/000000"
             height="70"
             alt="vercel logo"
             title="Vercel"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg"
             height="70"
             alt="bitbucket logo"
             title="BitBucket"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
             height="70"
             alt="vscode logo"
             title="VSCode"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"
             height="70"
             alt="visualstudio logo"
             title="Microsoft Visual Studio Professional & Community"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.simpleicons.org/jetbrains/000000"
             height="70"
             alt="jetbrains logo"
             title="JetBrains IDE"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.simpleicons.org/phpstorm/000000"
             height="70"
             alt="phpstorm logo"
             title="JetBrains PHPStorm IDE"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.simpleicons.org/webstorm/000000"
             height="70"
             alt="webstorm logo"
             title="JetBrains WebStorm IDE"
           />
-          <img width="12" />
+          <img width="12" alt="" />
 
           <img
             src="https://cdn.simpleicons.org/typo3/FF8700"
@@ -79,7 +79,7 @@ function Toolstack() {
             alt="typo3 logo"
             title="Typo 3"
           />
-          {/* <!-- <img width="12" /> -->
+          {/* <!-- <img width="12" alt="" /> -->
     <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hugo/hugo-original.svg" height="70" alt="hugo logo" title="Hugo"  /> --> */}
         </div>
       </p>
@@ -95,14 +95,14 @@ function Toolstack() {
             alt="chrome logo"
             title="Google Chrome"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg"
             height="70"
             alt="firefox logo"
             title="Mozilla Firefox"
           />
-          <img width="12" />
+          <img width="12" alt="" />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg"
             height="70"
@@ -124,10 +124,11 @@ function Toolstack() {
               alt="slack logo"
               title="Slack"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <a
               href="https://www.linkedin.com/in/sebastian-peinelt-01b7524a"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src="https://skillicons.dev/icons?i=linkedin"
@@ -136,77 +137,77 @@ function Toolstack() {
                 title="LinkedIn"
               />
             </a>
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://skillicons.dev/icons?i=discord"
               height="70"
               alt="discord logo"
               title="Discord // User: BulletStormXT"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
               height="70"
               alt="trello logo"
               title="Trello"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
               height="70"
               alt="figma logo"
               title="Figma"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
               height="70"
               alt="canva logo"
               title="Canva"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
               height="70"
               alt="photoshop logo"
               title="Adobe Photoshop"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg"
               height="70"
               alt="gimp logo"
               title="GIMP - Gnu Image Manipulation Program"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg"
               height="70"
               alt="premierepro logo"
               title="Adobe Premiere Pro"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.simpleicons.org/filezilla/BF0000"
               height="70"
               alt="filezilla logo"
               title="FileZilla (FTP/SFTP)"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
               height="70"
               alt="google logo"
               title="Google"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inkscape/inkscape-original.svg"
               height="70"
               alt="inkscape logo"
               title="InkScape"
             />
-            <img width="12" />
+            <img width="12" alt="" />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg"
               height="70"

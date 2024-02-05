@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
   AiOutlineLinkedin,
   AiOutlineSkype,
   AiOutlineWhatsApp,
@@ -12,7 +10,7 @@ import {
   AiOutlinePhone,
   AiOutlineMobile,
 } from "react-icons/ai";
-import { FaLinkedin, FaLinkedinIn, FaXing } from "react-icons/fa";
+import { FaXing } from "react-icons/fa";
 
 const Contact = () => {
   return (

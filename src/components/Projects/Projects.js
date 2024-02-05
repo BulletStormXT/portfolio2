@@ -25,7 +25,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Portfolio"
-              description="Ein Portfolio, welches im Rahmen der Weiterbildung bei der DCI entstanden ist. Hier wurde HTML, CSS und Bootstrap verwendet. Das Portfolio ist responsiv und hat eine gute Performance. Es ist ein OnePager und hat kein Kontaktformular, Weches auch meines erachtens nicht nötig ist, da man sich ja eh vorher schon kennt, oder schriftlich beworben hat."
+              description="Ein Portfolio, welches im Rahmen der Weiterbildung bei der DCI entstanden ist. Hier wurde HTML, CSS und Bootstrap verwendet. Das Portfolio ist responsiv und hat eine gute Performance. Es ist ein OnePager und hat kein Kontaktformular, Welches auch meines erachtens nicht nötig ist, da man sich ja eh vorher schon kennt, oder schriftlich beworben hat."
               ghLink="https://github.com/bulletstormxt/portfolio"
               demoLink="https://bulletstormxt.github.io/portfolio/"
             />
@@ -69,7 +69,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Using 'Natural Language Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in suicide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -80,7 +80,7 @@ function Projects() {
               imgPath={bhsvlsz}
               isBlog={false}
               title="Behindertensportverein Bad Langensalza"
-              description="Hier habe ich während meiner Ausbildung bzw. Weiterbildung zur Fachkraft für Internet und Intranet eine Webseite mit einer jungen Dame für die Behindertensportgemeinschaft Bad Langensal za, in welcher Sie Mitglied war, erstellt.
+              description="Hier habe ich während meiner Ausbildung bzw. Weiterbildung zur Fachkraft für Internet und Intranet eine Webseite mit einer jungen Dame für die Behindertensportgemeinschaft Bad Langensalza, in welcher Sie Mitglied war, erstellt.
               Diese Seite war von 2002 bis 2007 online."
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
